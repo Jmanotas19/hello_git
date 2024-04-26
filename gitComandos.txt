@@ -1,0 +1,42 @@
+### comandos git ###
+git init
+
+git branch -m main
+
+git status
+
+git add "nombre del script"
+
+git commit -m "nombre del script"
+
+git log
+
+#regresar al commit anterior del script
+git checkout "nombre del script"
+
+#cambiar nombre de commit
+git commit --amend -m "nuevo nombre de commit"
+
+#head - main (cuando este eliminado usarlo)
+git reset --hard "numero hash ultimo"
+
+#desplazarse en branches
+git switch "nombre de rama"
+
+#nombre de branch
+git branch "nombre de branch"
+
+eliminar branches
+git branch -d "nombre de branch"
+
+git merge "nombre de branch"
+
+#guardar en borrador
+git stash 
+#recuperar borrador
+git statsh pop
+#cargarse stash
+git stash drop
+
+
+
